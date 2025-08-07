@@ -94,7 +94,7 @@ pyrightconfig.json
 # Environment files and secrets
 .env
 .env.*
-/secrets/
+secrets/
 
 # Docker
 *.log
