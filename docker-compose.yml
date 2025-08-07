@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  yogonet-scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: yogonet-scraper
+    env_file:
+      - .env
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: /secrets/bq-sa-key.json
+    volumes:
+   #  - ./app:/app
+      - ./secrets:/secrets:ro
+    command: python main.py

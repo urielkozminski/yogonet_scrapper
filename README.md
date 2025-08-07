@@ -1,0 +1,2 @@
+# yogonet_scrapper
+
