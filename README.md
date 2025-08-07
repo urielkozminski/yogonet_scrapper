@@ -82,8 +82,8 @@ Editar
 ⚙️ Step-by-Step Instructions
 1. Clone the repository
 
-git clone https://github.com/your-user/your-repo.git
-cd your-repo
+git clone https://github.com/urielkozminski/yogonet_scrapper.git
+cd yogonet_scrapper
 
 2. Create .env file
 
